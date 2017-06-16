@@ -1,4 +1,5 @@
 module.exports = function rupeeFormatter(amount){
+  amount = amount + "";
   if(amount === ""){
     return "₹ -";
   }
