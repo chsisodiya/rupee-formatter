@@ -2,13 +2,13 @@
   "name": "rupee-formatter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "rupeeFormatter.js",
   "scripts": {
     "test": "mocha -w --compilers js:babel-register"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "babel-register": "^6.24.1",

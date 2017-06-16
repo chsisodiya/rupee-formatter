@@ -1,5 +1,5 @@
 var assert = require('assert');
-import rupeeFormatter from "../rupeeFormatter";
+import rupeeFormatter from "..";
 
 describe('Testing', function() {
   it('All test case must passing', function() {
