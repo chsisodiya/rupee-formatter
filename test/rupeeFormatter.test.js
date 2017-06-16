@@ -7,6 +7,10 @@ describe('Testing', function() {
     assert.equal(rupeeFormatter("100"), "₹ 100");
     assert.equal(rupeeFormatter("1400"), "₹ 1,400");
     assert.equal(rupeeFormatter(1400), "₹ 1,400");
+    assert.equal(rupeeFormatter(-54980), "₹ -54,980");
+    assert.equal(rupeeFormatter("-54980"), "₹ -54,980");
+    assert.equal(rupeeFormatter(-54980.6789), "₹ -54,980.6789");
+    assert.equal(rupeeFormatter("-54980.1234"), "₹ -54,980.1234");
     assert.equal(rupeeFormatter("1400.67"), "₹ 1,400.67");
     assert.equal(rupeeFormatter("14000.67"), "₹ 14,000.67");
     assert.equal(rupeeFormatter(14000.67), "₹ 14,000.67");
