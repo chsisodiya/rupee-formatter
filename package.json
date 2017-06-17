@@ -1,6 +1,6 @@
 {
   "name": "rupee-formatter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "rupeeFormatter.js",
   "files": [
@@ -9,8 +9,21 @@
   "scripts": {
     "test": "mocha -w --compilers js:babel-register"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chsisodiya/rupee-formatter.git"
+  },
+  "keywords": [
+    "rupee",
+    "formatter",
+    "currency"
+  ],
+  "author": "Chetan Sisodiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chsisodiya/rupee-formatter/issues"
+  },
+  "homepage": "https://github.com/chsisodiya/rupee-formatter#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
