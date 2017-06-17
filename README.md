@@ -3,8 +3,13 @@
 Indian Currency formatter.
 
 Installing package:
-
-npm install rupee-formatter
+```
+npm install --save rupee-formatter
+```
+OR
+```
+yarn add rupee-formatter
+```
 
 Usage Example:
 ```js
